@@ -1,3 +1,10 @@
+/*
+ * Modifications:
+ *     Updated selection colour.
+ *     Added settings field "hide_tab_scroll_buttons" to control whether
+ *         or not scroll arrows are shown in the top left of the tab bar.
+ */
+
 [
     //  TABS
     //  ==========================================================
@@ -237,6 +244,22 @@
         "settings": ["show_tab_close_buttons"],
         "attributes": ["pressed"],
         "layer0.opacity": 0.5
+    },
+
+//
+// Tab control buttons
+//
+    {
+        "class": "scroll_tabs_right_button",
+        "settings": ["hide_tab_scroll_buttons"],
+        "content_margin": [0, 0, 0, 0],
+        "layer0.opacity": 0
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "settings": ["hide_tab_scroll_buttons"],
+        "content_margin": [0, 0, 0, 0],
+        "layer0.opacity": 0
     },
 
 //
