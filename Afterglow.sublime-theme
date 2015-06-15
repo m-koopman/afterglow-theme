@@ -248,6 +248,21 @@
 //
 // Tab control buttons
 //
+    // Tab selector button (top right drop down)
+    // From Seti_UI
+    {
+        "class": "show_tabs_dropdown_button",
+        "content_margin": [10,8],
+        "layer0.texture": "Theme - Afterglow/Afterglow/tabset-list-hover@2x.png",
+        "layer0.opacity": 1
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Afterglow/Afterglow/tabset-list@2x.png",
+        "layer0.opacity": 1
+    },
+    // Tab navigation buttions (left/right at top left)
     {
         "class": "scroll_tabs_right_button",
         "settings": ["hide_tab_scroll_buttons"],
