@@ -1,6 +1,5 @@
 /*
  * Modifications:
- *     Updated selection colour.
  *     Added settings field "hide_tab_scroll_buttons" to control whether
  *         or not scroll arrows are shown in the top left of the tab bar.
  */
