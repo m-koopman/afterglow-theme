@@ -10,35 +10,47 @@
         <dict>
             <key>settings</key>
             <dict>
+                <!-- Background was #2E2E2E -->
                 <key>background</key>
-                <string>#2e2e2e</string>
+                <string>#262626</string>
 
                 <key>caret</key>
                 <string>#FFFFFF</string>
-
+                <!-- Foreground was #d6d6d6 -->
                 <key>foreground</key>
-                <string>#dcd7d2</string>
-
+                <string>#eeeeee</string>
                 <key>invisibles</key>
                 <string>#404040</string>
 
+                <!-- Highlight was #333435 -->
                 <key>lineHighlight</key>
-                <string>#333435</string>
+                <string>#262626</string>
 
+                <!-- Updated selection colour. -->
                 <key>selection</key>
-                <string>#5A647E</string>
+                <string>#4f4f4f</string>
 
-                <key>inactiveSelection</key>
-                <string>#3C3C3C</string>
-
-                <key>gutterForeground</key>
-                <string>#4C4C4C</string>
-
-                <key>guide</key>
-                <string>#F1826025</string>
-
+                <key>findHighlight</key>
+                <string>#FFE792</string>
+                <key>findHighlightForeground</key>
+                <string>#000000</string>
+                <key>selectionBorder</key>
+                <string></string>
                 <key>activeGuide</key>
-                <string>#cc773250</string>
+                <string>#9D550FB0</string>
+
+                <key>bracketsForeground</key>
+                <string>#F8F8F2A5</string>
+                <key>bracketsOptions</key>
+                <string>underline</string>
+
+                <key>bracketContentsForeground</key>
+                <string>#F8F8F2A5</string>
+                <key>bracketContentsOptions</key>
+                <string>underline</string>
+
+                <key>tagsOptions</key>
+                <string>stippled_underline</string>
             </dict>
         </dict>
         <dict>
@@ -61,6 +73,8 @@
             <dict>
                 <key>foreground</key>
                 <string>#c45330</string>
+                <key>fontStyle</key>
+                <string>bold</string>
             </dict>
         </dict>
         <dict>
